@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <radialGradient id="catCoinGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FCD34D" />
+      <stop offset="70%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D97706" />
+    </radialGradient>
+  </defs>
+  <!-- Outer Gold Coin Border -->
+  <circle cx="32" cy="32" r="30" fill="url(#catCoinGlow)" stroke="#FBBF24" stroke-width="2"/>
+  <circle cx="32" cy="32" r="26" fill="#12131A" stroke="#F59E0B" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <!-- Cat Silhouette -->
+  <!-- Left Ear -->
+  <polygon points="19,30 23,16 31,24" fill="#FBBF24" />
+  <polygon points="21,28 24,19 29,24" fill="#F59E0B" />
+  <!-- Right Ear -->
+  <polygon points="45,30 41,16 33,24" fill="#FBBF24" />
+  <polygon points="43,28 40,19 35,24" fill="#F59E0B" />
+  <!-- Head -->
+  <circle cx="32" cy="33" r="14" fill="#FBBF24"/>
+  <!-- Cheeks -->
+  <circle cx="28" cy="36" r="3.5" fill="#FDE68A"/>
+  <circle cx="36" cy="36" r="3.5" fill="#FDE68A"/>
+  <!-- Nose -->
+  <polygon points="30,34 34,34 32,36.5" fill="#B45309"/>
+  <!-- Whiskers -->
+  <line x1="22" y1="35" x2="16" y2="34" stroke="#D97706" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="22" y1="37" x2="15" y2="38" stroke="#D97706" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="42" y1="35" x2="48" y2="34" stroke="#D97706" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="42" y1="37" x2="49" y2="38" stroke="#D97706" stroke-width="1.2" stroke-linecap="round"/>
+  <!-- Cool Sunglasses -->
+  <path d="M21 28 Q32 29 43 28 L42 32 Q37 34 33 32 Q32 30 31 32 Q27 34 22 32 Z" fill="#0B0C10" stroke="#FDE68A" stroke-width="0.8"/>
+  <path d="M24 29 L28 32" stroke="#FFFFFF" stroke-width="0.7" stroke-linecap="round" opacity="0.8"/>
+  <path d="M35 29 L39 32" stroke="#FFFFFF" stroke-width="0.7" stroke-linecap="round" opacity="0.8"/>
+</svg>
