@@ -71,7 +71,7 @@ export const CONFIG: CatCoinsConfig = {
   xUrl: 'https://x.com/REPLACE_WITH_YOUR_X_USERNAME',
   contractAddress: '', // Leave empty until deployed on Four.meme
   launchStatus: 'Coming Soon',
-  websiteUrl: 'https://catcoin-placeholder.pages.dev', // Replace with your domain once active
+  websiteUrl: 'https://www.catcoins.fun', // Production custom domain
   headline: 'GOOD CATS. BIG MEMES.',
   tagline: 'The purr-fect community meme token arriving on BNB Chain via Four.meme. Pure fun, fair launch bonding curve, zero hidden team fees, and 100% feline energy.',
 };

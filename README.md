@@ -15,7 +15,9 @@ Built with **React 19**, **TypeScript**, **Vite**, and **Tailwind CSS**.
 ├── tsconfig.json              # Strict TypeScript configuration
 ├── vite.config.ts             # Vite build & Tailwind configuration
 ├── public/
-│   └── favicon.svg            # Custom CatCoin gold coin SVG favicon
+│   ├── favicon.svg            # Custom CatCoin gold coin SVG favicon
+│   ├── robots.txt             # Web crawler directives and sitemap reference
+│   └── sitemap.xml            # XML sitemap for search engine indexation (Google Search Console)
 ├── src/
 │   ├── config.ts              # ⭐ Single configuration file for links, contract, and ticker
 │   ├── main.tsx               # React root mounting
@@ -86,7 +88,7 @@ export const CONFIG = {
   xUrl: 'https://x.com/REPLACE_WITH_YOUR_X_USERNAME',             // 👈 Put your real X / Twitter handle here
   contractAddress: '',                                           // 👈 Paste your 0x... contract address after Four.meme launch!
   launchStatus: 'Coming Soon',                                   // 👈 Change to 'Live on Four.meme' after launch
-  websiteUrl: 'https://catcoin-placeholder.pages.dev',           // 👈 Replace with your production domain
+  websiteUrl: 'https://www.catcoins.fun',                         // 👈 Your live production domain
   headline: 'GOOD CATS. BIG MEMES.',
   tagline: 'The purr-fect community meme token arriving on BNB Chain via Four.meme...',
 };

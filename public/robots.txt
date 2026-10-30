@@ -1,0 +1,6 @@
+# Allow crawling of all content by Googlebot and all standard web search crawlers
+User-agent: *
+Allow: /
+
+# Reference to the XML Sitemap
+Sitemap: https://www.catcoins.fun/sitemap.xml
